@@ -1,0 +1,31 @@
+{
+  "name": "scvr",
+  "version": "1.0.0",
+  "description": "Web based VR player for the Soundcloud API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://renaudfv@github.com/renaudfv/scvr.git"
+  },
+  "keywords": [
+    "VR",
+    "Soundcloud"
+  ],
+  "author": "Renaud Vincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renaudfv/scvr/issues"
+  },
+  "homepage": "https://github.com/renaudfv/scvr",
+  "dependencies": {
+    "three-vr": "git://github.com/renaudfv/three-vr",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-browserify": "^0.5.1"
+  }
+}

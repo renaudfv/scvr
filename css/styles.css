@@ -1,0 +1,15 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+div:-webkit-full-screen {
+  width: 100% !important;
+}
