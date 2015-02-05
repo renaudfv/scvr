@@ -17191,13 +17191,13 @@ var timeline;
 function createControls(camera, scene) {
   var controlObj = new THREE.Object3D();
   var voiceMaterial = new THREE.MeshLambertMaterial({
-    map: THREE.ImageUtils.loadTexture("https://rawgit.com/renaudfv/scvr/master/files/micro1.jpg"),
+    map: THREE.ImageUtils.loadTexture("../files/micro1.jpg"),
   });
   var backMaterial = new THREE.MeshLambertMaterial({
-    map: THREE.ImageUtils.loadTexture("https://rawgit.com/renaudfv/scvr/master/files/back28.png")
+    map: THREE.ImageUtils.loadTexture("../files/back28.png")
   });
   var homeMaterial = new THREE.MeshLambertMaterial({
-    map: THREE.ImageUtils.loadTexture("https://rawgit.com/renaudfv/scvr/master/files/soundcloud.png")
+    map: THREE.ImageUtils.loadTexture("../files/soundcloud.png")
   });
   var voice = new THREE.Mesh(new THREE.CircleGeometry(12, 45), voiceMaterial);
   var back = new THREE.Mesh(new THREE.CircleGeometry(12, 45), backMaterial);
@@ -17230,7 +17230,7 @@ function createNavigation(camera, scene) {
   var controlObj = new THREE.Object3D();
   timeline = new THREE.Mesh(new THREE.PlaneGeometry(593, 140),
     new THREE.MeshLambertMaterial({
-      map: THREE.ImageUtils.loadTexture("https://rawgit.com/renaudfv/scvr/master/files/trees-remix.png"),
+      map: THREE.ImageUtils.loadTexture("../files/trees-remix.png"),
       transparent: true,
       opacity: 0
     })
@@ -17353,21 +17353,21 @@ function createApp(tracksArray) {
         });
       } else {
         material = new THREE.MeshLambertMaterial({
-          map: THREE.ImageUtils.loadTexture("https://rawgit.com/renaudfv/scvr/master/files/soundcloud.png")
+          map: THREE.ImageUtils.loadTexture("../files/soundcloud.png")
         });
       }
 
       var cube = new THREE.Mesh(new THREE.PlaneGeometry(70, 70), material);
       var play = new THREE.Mesh(new THREE.PlaneGeometry(50, 50),
         new THREE.MeshLambertMaterial({
-          map: THREE.ImageUtils.loadTexture("https://rawgit.com/renaudfv/scvr/master/files/play102.png"),
+          map: THREE.ImageUtils.loadTexture("../files/play102.png"),
           transparent: true,
           opacity: 0
         }));
 
       var pause = new THREE.Mesh(new THREE.PlaneGeometry(50, 50),
         new THREE.MeshLambertMaterial({
-          map: THREE.ImageUtils.loadTexture("https://rawgit.com/renaudfv/scvr/master/files/pause31.png"),
+          map: THREE.ImageUtils.loadTexture("../files/pause31.png"),
           transparent: true,
           opacity: 0
         }));
