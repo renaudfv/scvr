@@ -12,6 +12,6 @@ You can try a demo at http://renaudfv.github.io/scvr/. Navigation currently work
 #Links
 Current VR code base : http://vr.chromeexperiments.com/
 
-http://mozvr.com/
-http://webglvr.tumblr.com/
+http://mozvr.com/    
+http://webglvr.tumblr.com/    
 https://github.com/borismus/webvr-boilerplate --> Works with both Google Cardboar and Occulus Rift
