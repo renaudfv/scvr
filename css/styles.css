@@ -1,8 +1,9 @@
 body {
-  margin: 0px;
+  margin: 0;
   overflow: hidden;
 }
-#app {
+
+.app {
   position: absolute;
   top: 0;
   left: 0;
