@@ -8,11 +8,11 @@ You can try a demo at http://renaudfv.github.io/scvr/. Navigation currently work
 - [ ] Change event listeners so that they don't have any offset
 - [ ] Enable accelerometer navigation for mobile devices
 - [ ] Enable vocal search
-- [ ] Port code to WebVR to use with the Occulus Rift
+- [ ] Port code to WebVR to use with the Oculus Rift
 
 #Links
 Current VR code base : http://vr.chromeexperiments.com/
 
 http://mozvr.com/    
 http://webglvr.tumblr.com/    
-https://github.com/borismus/webvr-boilerplate --> Works with both Google Cardboar and Occulus Rift
+https://github.com/borismus/webvr-boilerplate --> Works with both Google Cardboar and Oculus Rift
