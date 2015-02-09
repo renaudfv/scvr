@@ -1,5 +1,5 @@
 # scvr
-Virtual reality Soundcloud player. It was first meant to be used with the Google Cardboard as a standalone app, but will now persue in the state of a web app.
+Virtual reality SoundCloud player. It was first meant to be used with the Google Cardboard as a standalone app, but will now persue in the state of a web app.
 
 You can try a demo at http://renaudfv.github.io/scvr/. Navigation currently works by drag and drop. Tracks are played on click events, but listeners are not great for the moment.
 
@@ -12,6 +12,8 @@ You can try a demo at http://renaudfv.github.io/scvr/. Navigation currently work
 
 #Links
 Current VR code base : http://vr.chromeexperiments.com/
+
+About the SoundCloud SDK : https://developers.soundcloud.com/docs/api/sdks
 
 http://mozvr.com/    
 http://webglvr.tumblr.com/    
